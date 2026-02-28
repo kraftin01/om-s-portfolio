@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: images
+public_folder: /images
+
+media_library:
+  name: cloudinary
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "content/index.json"
+        fields:
+          - { label: "Client Name", name: "name", widget: "string" }
+          - { label: "Bio or Email", name: "bio", widget: "string" }
+          - { label: "Last Updated", name: "date", widget: "datetime" }
