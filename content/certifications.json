@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "organization": "Amazon Web Services",
+      "year": "2023"
+    },
+    {
+      "name": "Google Cloud Professional Data Engineer",
+      "organization": "Google Cloud",
+      "year": "2023"
+    },
+    {
+      "name": "Kubernetes Application Developer",
+      "organization": "Linux Foundation",
+      "year": "2022"
+    }
+  ]
+}

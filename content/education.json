@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "degree": "Bachelor's Degree",
+      "field": "Computer Science & Engineering",
+      "institution": "University Name",
+      "year": "2016-2020"
+    },
+    {
+      "degree": "HSC (12th Grade)",
+      "field": "Science Stream",
+      "institution": "High School Name",
+      "year": "2014-2016"
+    }
+  ]
+}

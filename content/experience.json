@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "title": "Senior Developer",
+      "company": "Tech Company",
+      "duration": "2022 - Present",
+      "description": "Developed and maintained web applications. Led a team of junior developers. Implemented best practices for code quality and testing.",
+      "tech": "JavaScript, React, Node.js, AWS, Docker"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Startup Inc",
+      "duration": "2020 - 2022",
+      "description": "Built responsive web applications. Managed databases and APIs. Collaborated with design and product teams.",
+      "tech": "JavaScript, Python, MongoDB, PostgreSQL, AWS"
+    }
+  ]
+}

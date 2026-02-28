@@ -17,5 +17,67 @@ collections:
         file: "content/index.json"
         fields:
           - { label: "Client Name", name: "name", widget: "string" }
-          - { label: "Bio or Email", name: "bio", widget: "string" }
-          - { label: "Last Updated", name: "date", widget: "datetime" }
+          - { label: "Profession/Title", name: "profession", widget: "string" }
+          - { label: "Bio", name: "bio", widget: "text" }
+          - { label: "Profile Picture URL", name: "profileImage", widget: "string" }
+          - { label: "Phone Number", name: "phone", widget: "string" }
+          - { label: "Email Address", name: "email", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "LinkedIn URL", name: "linkedin", widget: "string" }
+          - { label: "GitHub URL", name: "github", widget: "string" }
+          - { label: "Twitter URL", name: "twitter", widget: "string" }
+          - { label: "Skills (comma separated)", name: "skills", widget: "string" }
+          - { label: "Resume Download URL", name: "resume", widget: "string" }
+      
+      - label: "Education"
+        name: "education"
+        file: "content/education.json"
+        fields:
+          - label: "Education Entries"
+            name: "entries"
+            widget: "list"
+            fields:
+              - { label: "Degree/Level", name: "degree", widget: "string" }
+              - { label: "Field/Specialization", name: "field", widget: "string" }
+              - { label: "Institution", name: "institution", widget: "string" }
+              - { label: "Year/Duration", name: "year", widget: "string" }
+      
+      - label: "Experience"
+        name: "experience"
+        file: "content/experience.json"
+        fields:
+          - label: "Experience Entries"
+            name: "entries"
+            widget: "list"
+            fields:
+              - { label: "Job Title", name: "title", widget: "string" }
+              - { label: "Company", name: "company", widget: "string" }
+              - { label: "Duration", name: "duration", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Technologies (comma separated)", name: "tech", widget: "string" }
+      
+      - label: "Projects"
+        name: "projects"
+        file: "content/projects.json"
+        fields:
+          - label: "Project Entries"
+            name: "entries"
+            widget: "list"
+            fields:
+              - { label: "Project Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Technologies (comma separated)", name: "tech", widget: "string" }
+              - { label: "Demo/Live Link", name: "link", widget: "string" }
+              - { label: "GitHub Link", name: "github", widget: "string" }
+      
+      - label: "Certifications"
+        name: "certifications"
+        file: "content/certifications.json"
+        fields:
+          - label: "Certification Entries"
+            name: "entries"
+            widget: "list"
+            fields:
+              - { label: "Certification Name", name: "name", widget: "string" }
+              - { label: "Organization", name: "organization", widget: "string" }
+              - { label: "Year", name: "year", widget: "string" }

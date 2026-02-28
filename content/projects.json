@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "name": "Project One",
+      "description": "An amazing web application that helps users manage their tasks efficiently with real-time collaboration features.",
+      "tech": "React, Node.js, MongoDB, Socket.io",
+      "link": "https://example.com/project1",
+      "github": "https://github.com/user/project1"
+    },
+    {
+      "name": "Project Two",
+      "description": "A mobile-friendly platform for e-commerce with payment integration and inventory management system.",
+      "tech": "JavaScript, Express, PostgreSQL, Stripe",
+      "link": "https://example.com/project2",
+      "github": "https://github.com/user/project2"
+    },
+    {
+      "name": "Project Three",
+      "description": "Analytics dashboard providing real-time data visualization and insights for business metrics.",
+      "tech": "React, D3.js, Node.js, AWS",
+      "link": "https://example.com/project3",
+      "github": "https://github.com/user/project3"
+    }
+  ]
+}

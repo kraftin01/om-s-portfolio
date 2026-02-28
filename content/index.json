@@ -1,0 +1,15 @@
+{
+  "name": "John Doe",
+  "profession": "Full Stack Developer",
+  "bio": "Passionate about building beautiful and functional web applications. Let's create something amazing together.",
+  "profileImage": "https://via.placeholder.com/400",
+  "phone": "+91 9876-543-210",
+  "email": "john.doe@example.com",
+  "location": "Mumbai, India",
+  "linkedin": "https://linkedin.com/in/johndoe",
+  "github": "https://github.com/johndoe",
+  "twitter": "https://twitter.com/johndoe",
+  "skills": "JavaScript, React, Node.js, Python, AWS, Docker, MongoDB, PostgreSQL",
+  "resume": "https://example.com/resume.pdf",
+  "date": "2024-02-28T10:00:00Z"
+}
